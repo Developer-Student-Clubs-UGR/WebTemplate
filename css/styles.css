@@ -1,0 +1,164 @@
+/*AJUSTES GENERALES*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    height: 100%;
+}
+
+h1 {
+    font-family: Roboto, Noto Sans, sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: #757575;
+}
+
+h2 {
+    font-family: Roboto, Noto Sans, sans-serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    color: #757575;
+}
+
+p, .form {
+    font-family: Roboto, Noto Sans, sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #757575;
+    line-height: 1.2em;
+}
+
+li {
+    font-weight: 400;
+    color: #757575;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0.5em;
+}
+
+a {
+    font-family: Roboto, Noto Sans, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.box {
+    width: 100%;
+    padding: 5vw 0;
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+}
+
+.box>* {
+    grid-column-start: 2;
+}
+
+/*AJUSTES ESPECÍFICOS*/
+
+/*HEADER*/
+
+.header {
+    width: 100%;
+    align-items: center;
+    text-align: right;
+    vertical-align: middle;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #757575;
+    left: 0; 
+	top: 0; 
+	position: fixed;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    height: 20%;
+	padding: 0px 0 0 70px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.navbar {
+    padding-top: 1.2%;
+    vertical-align: middle;
+    word-spacing: 40px;
+    padding-right: 10%;
+    
+}
+
+.navlink {
+    font-family: Roboto, Noto Sans, sans-serif;
+    color: #757575;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navlink:visited {
+    color: #757575;
+}
+
+.navlink:hover {
+    color: #4285F4;
+}
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    left: 0; 
+    bottom: 0; 
+    word-spacing: 50px;
+}
+
+.media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.texticono{
+    text-align: center;
+    float: right;
+    word-spacing: 50px; 
+}
+.texticono:visited {
+    color: #757575;
+}
+
+.texticono:hover{
+    color:  #4285F4;
+}
+
+.icono{
+    color: #757575;
+    width: 25px;
+    word-spacing: 50px; 
+    padding: 1px;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 25px;
+    float: left;
+}
+
+.icono:visited {
+    color: #757575;
+}
+
+.icono:hover{
+    color:  #4285F4;
+}
